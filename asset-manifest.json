@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/rivet.it/static/css/main.201e61e5.css",
+    "main.js": "/rivet.it/static/js/main.c0117ce4.js",
+    "static/media/grid-image.png": "/rivet.it/static/media/grid-image.b47bb3b565ee3cc99cb1.png",
+    "static/media/mehandi.jpg": "/rivet.it/static/media/mehandi.9ab953989e9aaa61682d.jpg",
+    "static/media/gallery-8.jpeg": "/rivet.it/static/media/gallery-8.3f66ddc202aef9ac0cbf.jpeg",
+    "static/media/henna.jpg": "/rivet.it/static/media/henna.e997768f4d7057fa311b.jpg",
+    "static/media/corn-2.jpeg": "/rivet.it/static/media/corn-2.4c430464e705844e7055.jpeg",
+    "static/media/henna-1.jpeg": "/rivet.it/static/media/henna-1.1b2218f24d01034f5802.jpeg",
+    "static/media/gallery-4.jpeg": "/rivet.it/static/media/gallery-4.cf48ff5cc4bea647314a.jpeg",
+    "static/media/gallery-6.jpeg": "/rivet.it/static/media/gallery-6.7b2937266403121df70c.jpeg",
+    "static/media/gallery-7.jpeg": "/rivet.it/static/media/gallery-7.4753794ecf1017e64ccb.jpeg",
+    "static/media/gallery-1.jpeg": "/rivet.it/static/media/gallery-1.9bda9dbe711ad732beee.jpeg",
+    "static/media/gallery-3.jpeg": "/rivet.it/static/media/gallery-3.46343cb5195d87843ec9.jpeg",
+    "static/media/gallery-9.jpeg": "/rivet.it/static/media/gallery-9.90b82dc7da74de84ef53.jpeg",
+    "static/media/gallery-5.jpeg": "/rivet.it/static/media/gallery-5.59f924998a9f8a786309.jpeg",
+    "static/media/corn-1.jpeg": "/rivet.it/static/media/corn-1.97abb407b74708572042.jpeg",
+    "static/media/gallery-2.jpeg": "/rivet.it/static/media/gallery-2.a270957d2dca206df2cd.jpeg",
+    "static/media/gallery-11.jpeg": "/rivet.it/static/media/gallery-11.8ecddd02daa99a05b5fe.jpeg",
+    "static/media/rivet-logo-white.png": "/rivet.it/static/media/rivet-logo-white.8f22d22e015950314e5d.png",
+    "static/media/rivet-logo-black.png": "/rivet.it/static/media/rivet-logo-black.a7eb7f74bcc8203b1438.png",
+    "index.html": "/rivet.it/index.html",
+    "main.201e61e5.css.map": "/rivet.it/static/css/main.201e61e5.css.map",
+    "main.c0117ce4.js.map": "/rivet.it/static/js/main.c0117ce4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.201e61e5.css",
+    "static/js/main.c0117ce4.js"
+  ]
+}
