@@ -7,8 +7,7 @@ const Contactdestination = () => {
         <div>
           <h1>Get in Touch</h1>
           <p className="paragraph">
-            Ready to start your journey with UG Diet Company?<br/> Contact us today
-            to learn more and sign up for our 1-month package.
+            Ready to start your journey with rivet.it<br/> Contact us today!
           </p>
         </div>
 

@@ -72,10 +72,8 @@
 
 } */
 .footerlogo {
-  width: 50%;
-  height: 95%;
-  object-fit: cover;
-  padding-bottom: 5px;
+
+  height: 50%;
 }
 
 .iconss {
@@ -83,16 +81,40 @@
   color: #000;
 }
 .footerstyle{
-  background-color: #e0e0e0;
-  /* margin-top: 10px; */
+  position: relative; /* Position relative to contain the pseudo-element */
+  background-image: url('/assets/henna.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50vh;
+  overflow: hidden; 
   margin-bottom: 0;
+}
+
+.footerstyle::before {
+  content: ''; /* Necessary for pseudo-elements */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Dark overlay with opacity */
+  z-index: 1; /* Ensure the overlay is above the background image */
+}
+
+.footerstyle > * {
+  position: relative;
+  z-index: 2; /* Ensure content is above the overlay */
 }
 
 .followicon{
   width: 10%;
 }
 
-.copyrightstyle{
-  color: #8b8b8b;
-  font-size: smaller;
+.headingstyle{
+  color: #fff;
+  font-size: larger;
 }
+
+

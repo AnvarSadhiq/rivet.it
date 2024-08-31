@@ -1,9 +1,7 @@
 import Navbar from "../Components/Navbar";
 import Footers from "../Components/Footers";
-import Servicedestination from "../Components/Servicedestination";
-import Allhomeimages from "../Components/Allhomeimages";
-import ServiceImg from "../assets/service-img.jpg";
-import Servicesection from "../Components/Servicesection";
+import Aboutsecound from "../Components/Aboutsecound";
+import ServiceImg from "../assets/gallery-9.jpeg";
 // import Clientside from "../Clientside";
 
 function Service() {
@@ -28,8 +26,7 @@ function Service() {
         </div>
       </div>
       {/* <Allhomeimages cName="service" moreinfo="More info" HeroImg={ServiceImg} mainheading="Services"/> */}
-      <Servicedestination />
-      <Servicesection />
+      <Aboutsecound />
       {/* <Clientside/> */}
       {/* <Servicesection/> */}
       <Footers />

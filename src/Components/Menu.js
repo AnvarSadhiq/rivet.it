@@ -7,17 +7,24 @@ export const Menu = [
   },
 
   {
-    title: "ABOUT",
+    title: "ABOUT US",
     url: "/about",
     cName: "nav-links",
     // icon: "fa-solid fa-circle-info",
   },
 
   {
-    title: "SERVICE",
+    title: "SERVICES",
     url: "/service",
     cName: "nav-links",
     // icon: "fa-solid fa-briefcase",
+  },
+
+  {
+    title: "GALLERY",
+    url: "/gallery",
+    cName: "nav-links",
+    // icon: "fa-solid fa-address-book",
   },
 
   {

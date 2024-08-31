@@ -14,7 +14,7 @@ const Servicedestination = () => {
       <div>
         <div className="container servicecontainer1 mb-5">
           <h1 className="servicesheading mb-5 text-center">
-            Weight management
+            Features of Fit Master
           </h1>
           <div className="row justify-content-center">
             <div className="col-md-4 col-sm-6 text-center">
@@ -25,6 +25,10 @@ const Servicedestination = () => {
               />
               <p className="paragraphheading">
                 <b>CERTIFIED TRAINERS</b>
+              </p>
+              <p>
+                Our team of experts provides professional and personalized
+                fitness plans.
               </p>
             </div>
 
@@ -37,6 +41,9 @@ const Servicedestination = () => {
               <p className="paragraphheading">
                 <b>ONGOING SUPPORT</b>
               </p>
+              <p>
+                Receive continuous motivation and support to keep you on track.
+              </p>
             </div>
 
             <div className="col-md-4 col-sm-6 text-center">
@@ -46,8 +53,9 @@ const Servicedestination = () => {
                 alt="Gluten-Free Diets"
               />
               <p className="paragraphheading">
-                <b>SATISFACTION GUARANTEED</b>
+                <b>100% CASH BACK </b>
               </p>
+              <p>If you see no change after 1 month, we offer a full refund.</p>
             </div>
           </div>
 
@@ -61,6 +69,10 @@ const Servicedestination = () => {
               <p className="paragraphheading">
                 <b>CUSTOMIZED DIET PLANS</b>
               </p>
+              <p>
+                Personalized diet plans tailored to your specific goals and
+                preferences.
+              </p>
             </div>
 
             <div className="col-md-4 col-sm-6 text-center">
@@ -72,6 +84,7 @@ const Servicedestination = () => {
               <p className="paragraphheading">
                 <b>CERTIFIED NUTRITIONISTS</b>
               </p>
+              <p>Personalized diet plans from our team of professionals.</p>
             </div>
 
             <div className="col-md-4 col-sm-6 text-center">
@@ -83,6 +96,7 @@ const Servicedestination = () => {
               <p className="paragraphheading">
                 <b>GLUTEN-FREE DIETS</b>
               </p>
+              <p>Safe and delicious options for gluten intolerance.</p>
             </div>
           </div>
         </div>

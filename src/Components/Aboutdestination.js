@@ -1,32 +1,50 @@
 import "./Aboutdestination.css";
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import gridImage from "../assets/grid-image.png";
 const Aboutdestination = () => {
   return (
-    <div>
-      <div className="container aboutcontainer1">
+    <div className="bgcolors">
+      <div className="container">
         <div className="row">
-          <h1 className="mb-5">
-            Your health is our <span className="spanaboutt">priority.</span>
-          </h1>
-          <div className="col-md-12 col-sm-12 column2">
-            <h4 className="column2heading">Our Mission</h4>
-            <p>
-              We provide the tools and support you need to make lasting,
-              positive changes in your diet and overall health. Everyone
-              deserves to feel their best, and we are here to help you get
-              there.
+          <div className="col-md-6 col-sm-12 mt-5">
+            <h4 className="aboutheading">ABOUT US</h4>
+            <p className="aboutparagraph">
+              Mehndi Creations are a new generation of artists, using unique
+              techniques together with natural ingredients for the mehndi,
+              
+              to
+              add depth to its colour for your special occasions to last for
+              days to come.
             </p>
-          </div>
-        </div>
 
-        <div className="row mt-5">
-          <div className="col-md-12 col-sm-12 column2">
-            <h4 className="column2heading">Our Vission</h4>
-            <p>
-              We provide the tools and support you need to make lasting,
-              positive changes in your diet and overall health. Everyone
-              deserves to feel their best, and we are here to help you get
-              there.
-            </p>
+            <div>
+              <a
+                href="https://wa.me/917025040484?text= Hi! I was browsing the website blog and wanted to know more about rivet.it"
+                target="_blank"
+              >
+                <div className="div_style mb-3">
+                  100+ <br />
+                  Happy Clients
+                </div>
+              </a>
+
+              <span className="snapstyle">
+                <a
+                  href="https://wa.me/917025040484?text= Hi! I was browsing the website blog and wanted to know more about rivet.it"
+                  target="_blank"
+                >
+                  <div className="div_style mb-3">
+                    100% <br />
+                    Good Service
+                  </div>
+                </a>
+              </span>
+            </div>
+          </div>
+
+          <div className="col-md-6 col-sm-12 mb-3 mt-3">
+            <img src={gridImage} alt="/" className="Homesecoundimg" />
           </div>
         </div>
       </div>

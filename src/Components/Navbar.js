@@ -2,7 +2,7 @@ import { Component } from "react";
 import "./Navbar.css";
 import { Menu } from "./Menu";
 import { Link } from "react-router-dom";
-import nav_logo from "../assets/fitmaster-logo.png";
+import nav_logo from "../assets/rivet-logo-black.png";
 
 class Navbar extends Component {
   state = { clicked: false };
@@ -13,6 +13,7 @@ class Navbar extends Component {
     return (
       <nav className="NavbarItems">
         <img src={nav_logo} alt="/" className="logo" />
+        
 
         <div className="menu-icons" onClick={this.handleClick}>
           <i

@@ -14,7 +14,13 @@
   object-fit: cover;
   border-radius: 50%;
 }
-.goalimg{
+.cornimg{
   width: 30%;
   text-align: center;
+  border-radius: 50%;
+}
+.hennaimg{
+  width: 30%;
+  text-align: center;
+  border-radius: 50%;
 }

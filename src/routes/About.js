@@ -1,6 +1,6 @@
 import Navbar from "../Components/Navbar";
 import Allhomeimages from "../Components/Allhomeimages";
-import AboutImg from "../assets/about-img.jpg";
+import AboutImg from "../assets/gallery-11.jpeg";
 import Footers from "../Components/Footers";
 import Aboutdestination from "../Components/Aboutdestination";
 // import Abouthome from "../Components/Abouthome";

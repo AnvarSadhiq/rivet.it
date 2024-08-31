@@ -1,0 +1,73 @@
+.offerstyle {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.spanstyle2 {
+  color: #71ad6c;
+  text-align: start;
+}
+
+.paragraphstyle {
+  font-weight: bold;
+  font-size: large;
+}
+.homeimgbtn1 {
+  color: #fff;
+  background-color: #2a4146;
+  border: 1px solid #fff;
+  min-width: 100px;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.followicons {
+  width: 20%;
+  padding-right: 10px;
+}
+
+.clientimage {
+  width: 100%;
+  height: 90%;
+  /* object-fit: cover; */
+  border-radius: 10px;
+}
+
+/* Ensure videos maintain a 9:16 aspect ratio for YouTube Shorts */
+.embed-responsive-shorts {
+  position: relative;
+  display: block;
+  width: 90%;
+  padding: 0;
+  overflow: hidden;
+  padding-bottom: 177.77%; /* 9:16 aspect ratio (100% / (16/9)) */
+  background-color: #000;
+  border-radius: 10px;
+}
+
+.embed-responsive-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Flexbox styling for vertical alignment */
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}

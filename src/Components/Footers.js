@@ -2,9 +2,8 @@ import "./Footers.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import WtspIcon from "../assets/whatsapp-logo.png";
-import Footer_logo from "../assets/fitmaster-logo.png";
+import Footer_logo from "../assets/rivet-logo-white.png";
 import InstaIcon from "../assets/Instagram-logo.png";
-import FacebookIcon from "../assets/facebook-logo.png";
 
 const Footers = () => {
   return (
@@ -15,28 +14,20 @@ const Footers = () => {
             <img src={Footer_logo} alt="" className="footerlogo" />
           </div>
           <div className="col-md-4 col-sm-12 mt-5">
-            <h4>CONTACT</h4>
-            <FaPhoneAlt className="me-2" />
-            7025040484
-            <br />
-            {/* <FaEnvelope className="me-2" />
-            fitmaster@gmail.com
-            <br /> */}
+            
+            
           </div>
           <div className="col-md-4 col-sm-12 mt-5">
-            <h4 className="followus">FOLLOW US</h4>
+            <h4 className="headingstyle">FOLLOW US</h4>
             <p>
-              <a href="https://wa.me/917025040484?text= Hi! I was browsing the website blog and wanted to know more about FIT MASTER" target="_blank">
+              <a href="https://wa.me/917025040484?text= Hi! I was browsing the website blog and wanted to know more about revet.it" target="_blank">
               <img className="followicon" src={WtspIcon} />
               </a>
               <a
-                href="https://www.instagram.com/fitmaster__?igsh=ZjcxeXB4aG5vNnV0"
+                href="https://www.instagram.com/rivet.it?igsh=MXRwYnRsb29nYXMzNw=="
                 target="_blank"
               >
                 <img className="followicon" src={InstaIcon} />
-              </a>
-              <a href="/">
-                <img className="followicon" src={FacebookIcon} />
               </a>
             </p>
           </div>

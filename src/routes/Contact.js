@@ -1,11 +1,10 @@
-// import Homepage from "../Components/Homepage";
 import Navbar from "../Components/Navbar";
 import Footers from "../Components/Footers";
 import Contactdestination from "../Components/Contactdestination";
-// import Contacthome from "../Components/Contacthome";
-import Allhomeimages from "../Components/Allhomeimages";
-import ContactImg from "../assets/contact-us-min.jpg";
+import ContactImg from "../assets/gallery-7.jpeg";
 import Wtspimg from "../assets/whatsapp-logo.png";
+import logo from "../assets/rivet-logo-black.png";
+
 
 
 function Contact() {
@@ -22,7 +21,7 @@ function Contact() {
           {/* <h2>Welcome to</h2> */}
           <h1>CONTACT</h1>
           <p className="paragraph-text">
-            Contact us today to learn more and sign up for our 1-month package.
+            Contact us today!
           </p>
           {/* <a
             href="https://wa.me/917025040484?text= Hello I Saw UG DIET Website, i'm  interested to join with you!"
@@ -34,7 +33,7 @@ function Contact() {
 
         <div class="chat_withus chat_open">
         <span class="sc-dkrFOg OAhur">
-          <h2 className="fitmasterhead">FiT Master</h2>
+        <img src={logo} alt="/" className="logo" />
           
         </span>
         <a
